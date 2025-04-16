@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Front_End_&_Back_End_Developer,Blockchain_Developer,and_passionate_for_cybersecurity_&_AI)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Front_End_and_Back_End_Developer,Blockchain_Developer,and_passionate_for_cybersecurity_and_AI)](https://git.io/typing-svg)
 
 
 
