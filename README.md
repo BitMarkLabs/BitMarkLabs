@@ -1,7 +1,7 @@
 [![MasterHead](https://3.bp.blogspot.com/-IQUQ_T_ZJ5s/WpP5i6dTRoI/AAAAAAAAADc/pOmz7CDfIrkCNv62cy6JDuSH7j-DGYN8QCLcBGAs/s1600/what-is-the-blockchain.jpg)](https://bitmarklabs.com)
 
 
-# ฿itMark Labs
+# ฿itMark_Labs
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Front_End_and_Back_End_Developer;Blockchain_Developer;Passionate_for_cybersecurity_and_AI)](https://git.io/typing-svg)
 ##
