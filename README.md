@@ -1,13 +1,9 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Front_End_and_Back_End_Developer;Blockchain_Developer;Passionate_for_cybersecurity_and_AI)](https://git.io/typing-svg)
-
-
-
 [![MasterHead](https://3.bp.blogspot.com/-IQUQ_T_ZJ5s/WpP5i6dTRoI/AAAAAAAAADc/pOmz7CDfIrkCNv62cy6JDuSH7j-DGYN8QCLcBGAs/s1600/what-is-the-blockchain.jpg)](https://bitmarklabs.com)
 
 
 # ฿itMark Labs
 
-**`Blockchain Expert (Developer/Cordinator/Content Creator) `**
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Front_End_and_Back_End_Developer;Blockchain_Developer;Passionate_for_cybersecurity_and_AI)](https://git.io/typing-svg)
 ##
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 I am Markelo Rapti a Developer and a content creator building my version of blockchain world one step at a time. I hold a BSc Degree in Computer Science. All coding projects are built from the ground up, from planning and designing all the way to solving real-life problems with code. I love exploring new projects in blockchain ecosystem and find more about day by for this amazing world and also I am investor in major blockchain projects. I have the ability to create new ideas easily and I ve been awarded many times for that. All my articles and video content are built the same way, from ideation and planning, all the way to finalizing the content with good explanation for the audience and with artistic touches. You can find the content through my youtube channel [BitMarkLabs](https://www.youtube.com/@BitMarkLabs) and for articles [BitMarkLabsArticles](https://medium.com/@mraptis77)
