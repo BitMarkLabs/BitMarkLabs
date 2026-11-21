@@ -19,16 +19,24 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python3 - <<'PY'
-          import json, os, re, urllib.request
+          import json, os, re, urllib.request, datetime
+          EXCLUDE = {"bitmarklabs", "veridis", "sushi"}   # repos never to show
+          MAX_AGE_DAYS = 90                               # only recent work
           req = urllib.request.Request(
               "https://api.github.com/users/BitMarkLabs/repos?type=owner&sort=pushed&per_page=30",
               headers={"Authorization": "Bearer " + os.environ["GH_TOKEN"],
                        "Accept": "application/vnd.github+json"})
           repos = [r for r in json.load(urllib.request.urlopen(req))
                    if not r["fork"] and not r["private"] and not r["archived"]
-                   and r["name"].lower() != "bitmarklabs"][:3]
-          if repos:
-              names = ", ".join(f"[**{r['name']}**]({r['html_url']})" for r in repos)
+                   and r["name"].lower() not in EXCLUDE]
+          now = datetime.datetime.now(datetime.timezone.utc)
+          repos = [r for r in repos if (now - datetime.datetime.fromisoformat(
+                   r["pushed_at"].replace("Z", "+00:00"))).days <= MAX_AGE_DAYS][:3]
+          if True:
+              if repos:
+                  names = ", ".join(f"[**{r['name']}**]({r['html_url']})" for r in repos)
+              else:
+                  names = "**AI agents and AI security**"
               line = "- 🔭 I’m currently working on " + names
               path = "README.md"
               text = open(path, encoding="utf-8").read()
