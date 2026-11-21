@@ -16,11 +16,11 @@ I am Markelo Rapti a Developer and a content creator building my version of bloc
 
 <p align="left"> <a href="https://twitter.com/bitmarklabs" target="blank"><img src="https://img.shields.io/twitter/follow/bitmarklabs?logo=twitter&style=for-the-badge" alt="bitmarklabs" /></a> </p>
 
-- 🔭 I’m currently working on **NOISAI**
+<!--WORKING_ON:START-->
+- 🔭 I’m currently working on [**Veridis**](https://github.com/BitMarkLabs/Veridis)
+<!--WORKING_ON:END-->
 
 - 🌱 I’m currently learning **AI and Blockchain**
-  
-- 🌱 I’m currently on **Master's Degree**
 
 - 👯 I’m looking to collaborate on **with AI and Blockchain projects**
 
