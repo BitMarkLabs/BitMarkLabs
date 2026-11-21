@@ -17,7 +17,7 @@ I am Markelo Rapti a Developer and a content creator building my version of bloc
 <p align="left"> <a href="https://twitter.com/bitmarklabs" target="blank"><img src="https://img.shields.io/twitter/follow/bitmarklabs?logo=twitter&style=for-the-badge" alt="bitmarklabs" /></a> </p>
 
 <!--WORKING_ON:START-->
-- 🔭 I’m currently working on [**Veridis**](https://github.com/BitMarkLabs/Veridis), [**sushi**](https://github.com/BitMarkLabs/sushi), [**bit_mark_labs**](https://github.com/BitMarkLabs/bit_mark_labs)
+- 🔭 I’m currently working on **AI agents and AI security**
 <!--WORKING_ON:END-->
 
 - 🌱 I’m currently learning **AI and Blockchain**
