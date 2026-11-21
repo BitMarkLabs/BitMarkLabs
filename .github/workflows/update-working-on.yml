@@ -1,0 +1,45 @@
+name: Update "currently working on"
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Refresh the line from recently pushed public repos
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import json, os, re, urllib.request
+          req = urllib.request.Request(
+              "https://api.github.com/users/BitMarkLabs/repos?type=owner&sort=pushed&per_page=30",
+              headers={"Authorization": "Bearer " + os.environ["GH_TOKEN"],
+                       "Accept": "application/vnd.github+json"})
+          repos = [r for r in json.load(urllib.request.urlopen(req))
+                   if not r["fork"] and not r["private"] and not r["archived"]
+                   and r["name"].lower() != "bitmarklabs"][:3]
+          if repos:
+              names = ", ".join(f"[**{r['name']}**]({r['html_url']})" for r in repos)
+              line = "- 🔭 I’m currently working on " + names
+              path = "README.md"
+              text = open(path, encoding="utf-8").read()
+              new = re.sub(r"<!--WORKING_ON:START-->.*?<!--WORKING_ON:END-->",
+                           "<!--WORKING_ON:START-->\n" + line + "\n<!--WORKING_ON:END-->",
+                           text, flags=re.S)
+              open(path, "w", encoding="utf-8").write(new)
+          PY
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git diff --quiet || (git commit -am "Update currently working on" && git push)
