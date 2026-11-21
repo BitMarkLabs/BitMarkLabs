@@ -1,4 +1,4 @@
-[![MasterHead](https://3.bp.blogspot.com/-IQUQ_T_ZJ5s/WpP5i6dTRoI/AAAAAAAAADc/pOmz7CDfIrkCNv62cy6JDuSH7j-DGYN8QCLcBGAs/s1600/what-is-the-blockchain.jpg)](https://bitmarklabs.com)
+[![MasterHead](https://raw.githubusercontent.com/BitMarkLabs/BitMarkLabs/main/banner.png)](https://bitmarklabs.com)
 
 
 # ฿itMark_Labs
